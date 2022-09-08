@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: bes-gateway
+  profiles:
+    active: @profile.name@
+  cloud:
+    nacos:
+      discovery:
+        namespace: @config.namespace@
+        server-addr: @config.server-addr@
+        group: @config.group@
+    gateway:
+      discovery:
+        locator:
+          enabled: true
