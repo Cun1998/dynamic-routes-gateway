@@ -1,6 +1,6 @@
 spring:
   application:
-    name: bes-gateway
+    name: dynamic-route-gateway
   profiles:
     active: @profile.name@
   cloud:

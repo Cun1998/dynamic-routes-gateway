@@ -6,10 +6,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-public class BesGatewayApplication {
+public class DynamicRoutesGatewayApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(BesGatewayApplication.class, args);
+        SpringApplication.run(DynamicRoutesGatewayApplication.class, args);
     }
 
 
